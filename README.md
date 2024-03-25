@@ -92,7 +92,7 @@ python pipeline.py
 ```
 #### Run Web application (Socket communication between Java Spring and Python)
 ```
-python server.py --model_saved_path=[traind model path] --OPENAI_API_KEY=[OPENAI_API_KEY]
+python server.py --model_saved_path=[trained model path] --OPENAI_API_KEY=[OPENAI_API_KEY]
 ```
 * java Spring Project 실행의 경우 `DermQA_project/java/project/src/main/resources
 /application.properties`에서 MySQL 데이터 베이스 연결 후 사용
