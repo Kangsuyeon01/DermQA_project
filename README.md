@@ -90,7 +90,7 @@ python train.py
 ```
 python pipeline.py
 ```
-#### Run Web application (Socket communication between Java Spring to Python)
+#### Run Web application (Socket communication between Java Spring and Python)
 ```
 python server.py --model_saved_path=[traind model path] --OPENAI_API_KEY=[OPENAI_API_KEY]
 ```
