@@ -3,10 +3,10 @@
 
 Confence Paper : https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11652092
 
-`개발 기간`: 2023.03 ~ 2023.11
-`참여 인원` : 3
-`사용 언어` : `Python`, `Java`, `JavaScript`, `MySQL`
-`배포 환경` : `Ubuntu 18.04.6`
+- `개발 기간`: 2023.03 ~ 2023.11 (7개월)
+- `참여 인원` : 3
+- `사용 언어` : `Python`, `Java`, `JavaScript`, `MySQL`
+- `배포 환경` : `Ubuntu 18.04.6`
 
 ## Deep Learning Model
 
