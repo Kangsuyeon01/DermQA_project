@@ -16,10 +16,13 @@
 ## Deep Learning Model
 
 ### Dataset
-- 피부 병변 이미지 데이터셋: HAM10000
+- 피부 병변 이미지 데이터셋: [HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
+![image](https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/15c934f1-0218-425f-ada7-6bace27c03d6)
+
 - 7개 피부 병변 유형과 나이, 성별, 병변 위치에 대한 데이터로 구성
 - 광선각화증(actinic keratosis), 기저세포암(basal cell carcinoma), 지루각화증(benign keratosis), 섬유종(dermatofibroma), 흑색종(melanoma), 반점(nevus), 혈관종(vascular lesion)
   ![image](https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/1dedb502-d795-42a4-a562-920edeaf26cd)
+
 
 ---
 ### Model
@@ -82,7 +85,10 @@
 #### Train
 ```
 git clone https://github.com/Kangsuyeon01/DermQA.git
-CD DermQA/DL
+CD DermQA_project/DL
+```
+
+```
 python train.py
 ```
 학습이 완료된 모델은 'models/saved_model' 에 저장됩니다.
