@@ -23,9 +23,20 @@
 
 ---
 ### Model
-![image](https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/02eddf0a-27e8-48a7-865c-b6317a8fd0d1)
+#### 피부 병변 분류를 위한 딥러닝 모델
+  - 합성곱 신경망(Convolutional Neural Network)으로 구성된 모델로 성능 평가
+  - 빠른 학습을 위해 ImageNet 데이터셋으로 사전학습 된 모델의 가중치를 활용한 전이학습(Transfer Learning) 활용
+    - 성능 비교를 위해 ResNet-D, EfficientNet, DenseNet, Xception 네 가지 네트워크를 학습
+<img src="https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/f3e19ffb-7067-461d-aa6d-8945ae486dc8" width ="80%">
 
-![image](https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/7b36a897-6926-448e-929d-8a7a03556fd4)
+#### 피부 병변 조기 진단 정보 제공 시스템
+1. 웹에서 사용자가 피부 병변 이미지와 질문 업로드
+2. 데이터베이스에 데이터 저장 후, 고유 ID를 소켓통신(Python, JAVA)을 통해 서버로 전송
+3. 서버에서 해당 ID의 이미지에 대한 피부 병변 분류
+4. 분류 결과와 질문을 통해 프롬프트를 구성하여 ChatGPT API에 입력
+5. 생성한 답변을 데이터베이스에 저장하여 웹을 통해 사용자에게 제공
+<img src="https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/02b9d608-88af-43a1-b17c-91fe09db56fb" width ="50%">
+
 
 ---
 ### 실험 환경 및 매개 변수
