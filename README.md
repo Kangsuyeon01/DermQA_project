@@ -1,12 +1,17 @@
-# DermQA: 피부 병변 조기 진단을 위한 이미지 분류와 ChatGPT 기반 웹 시스템
-![image](https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/1ac5b6da-bff1-4b0d-9862-c174d9618330)
+# [DermQA: 피부 병변 조기 진단을 위한 이미지 분류와 ChatGPT 기반 웹 시스템](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11652092)
 
-Confence Paper : https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11652092
+
+
 
 - `개발 기간`: 2023.03 ~ 2023.11 (7개월)
 - `참여 인원` : 3
 - `사용 언어` : `Python`, `Java`, `JavaScript`, `MySQL`
 - `배포 환경` : `Ubuntu 18.04.6`
+
+
+![image](https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/1ac5b6da-bff1-4b0d-9862-c174d9618330)
+
+
 
 ## Deep Learning Model
 
