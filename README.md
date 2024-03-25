@@ -3,8 +3,10 @@
 
 Confence Paper : https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11652092
 
-
-## Abstract
+`개발 기간`: 2023.03 ~ 2023.11
+`참여 인원` : 3
+`사용 언어` : `Python`, `Java`, `JavaScript`, `MySQL`
+`배포 환경` : `Ubuntu 18.04.6`
 
 ## Deep Learning Model
 
@@ -14,12 +16,13 @@ Confence Paper : https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE116520
 - 광선각화증(actinic keratosis), 기저세포암(basal cell carcinoma), 지루각화증(benign keratosis), 섬유종(dermatofibroma), 흑색종(melanoma), 반점(nevus), 혈관종(vascular lesion)
   ![image](https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/1dedb502-d795-42a4-a562-920edeaf26cd)
 
-
+---
 ### Model
 ![image](https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/02eddf0a-27e8-48a7-865c-b6317a8fd0d1)
 
 ![image](https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/7b36a897-6926-448e-929d-8a7a03556fd4)
 
+---
 ### 실험 환경 및 매개 변수
 
 - 환경
@@ -52,13 +55,13 @@ Confence Paper : https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE116520
 성능이 가장 우수한 모델
   → `Efficientnet B5` 을 백본 네트워크로 선정
 
-
+---
 
 ## Web Interface
 ![image](https://github.com/Kangsuyeon01/DermQA_project/assets/94098065/cbba124f-3c9b-4288-8354-e5191ac7814d)
 
 ---
-## Python 파일 실행 방법
+## How to run Python File
 
 #### Train
 ```
@@ -74,8 +77,8 @@ python pipeline.py
 #### Run Web application (Socket communication between Java Spring to Python)
 ```
 python server.py --model_saved_path=[traind model path] --OPENAI_API_KEY=[OPENAI_API_KEY]
-nohup java -jar DermQA.jar &
 ```
-
+* java Spring Project 실행의 경우 `DermQA_project/java/project/src/main/resources
+/application.properties`에서 MySQL 데이터 베이스 연결 후 사용
 --- 
 
