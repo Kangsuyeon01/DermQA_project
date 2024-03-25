@@ -11,7 +11,7 @@ import openai
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-HOST = '203.232.193.173'
+HOST = 'your ip address'
 PORT = 5252
 
 def chatgpt_access(prediction,board_contents, board_title):
@@ -61,7 +61,7 @@ def handle_client(args, conn, addr):
             if 'IMG' in data:
                 try:
                     img_id = int(data.split()[1])
-                    db = pymysql.connect(user='suyeon', password='insert', host='203.232.193.173', port=3306, db='insertDB', charset='utf8')
+                    db = pymysql.connect(user='user', password='pwd', host='input your ip address', port=3306, db='insertDB', charset='utf8')
                     cursor = db.cursor()
 
                     img_path = fetch_image_path(img_id, cursor)
